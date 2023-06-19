@@ -3,12 +3,32 @@
 <PageTitle>DashBoard</PageTitle>
 
 @using toolCrawler.Components.TikTok
-@inject TikTokService service
+@inject TikTokService tiktokService
 
 <h3>DashBoard</h3>
-<input id="inp-tiktok-link" placeholder="tiktok user"/>
-<input id="inp-local-path" placeholder="local path"/>
+<input id="inp-tiktok-user" @bind="inpTikTokUser"  @bind:event="oninput" placeholder="tiktok user"/>
+<input id="inp-local-path" @bind = "inpLocalPathValue" @bind:event="oninput" placeholder="local path"/>
+<button id="btn-do-crawl" @onclick="@crawlTiktok">exec</button>
+<code>Input value</code>:@resultx
 
 @code {
 
+    private string? inpLocalPathValue{ get; set; }
+    private string? inpTikTokUser { get; set; }
+    private string? resultx { get; set; }
+    //tiktokService
+    public void crawlTiktok()
+    {
+        bool result;
+        result = tiktokService.CrawlData(inpTikTokUser, inpLocalPathValue);
+        if (result == true)
+        {
+            resultx = "done";
+        }
+        else
+        {
+            resultx = "false";
+        }
+
+    }
 }
