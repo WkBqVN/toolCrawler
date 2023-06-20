@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "nz42haV1FaIhCas7tlzhZ6XOGeYlNkHaqOdszTpKUEYyXSC3QDWjxEsHwYZLeTsiRoys133OTJvZqaMhHwLuXw==",
+  "dgSpecHash": "4zKl8erY7ggf9P1jEtE3srHzzTHFwp+0PUkZnAUX1+pw801g+1p28luf42ofXRSLlZh1dqG0kiCHs/eZ2bja+g==",
   "success": true,
-  "projectFilePath": "C:\\Work\\toolCrawler\\toolCrawler\\toolCrawler.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/khoavo/TestProjects/toolCrawler/toolCrawler/toolCrawler.csproj",
+  "expectedPackageFiles": [
+    "/Users/khoavo/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "/Users/khoavo/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/Users/khoavo/.nuget/packages/microsoft.extensions.configuration.fileextensions/7.0.0/microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
+    "/Users/khoavo/.nuget/packages/microsoft.extensions.configuration.json/7.0.0/microsoft.extensions.configuration.json.7.0.0.nupkg.sha512",
+    "/Users/khoavo/.nuget/packages/microsoft.extensions.fileproviders.abstractions/7.0.0/microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "/Users/khoavo/.nuget/packages/microsoft.extensions.fileproviders.physical/7.0.0/microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
+    "/Users/khoavo/.nuget/packages/microsoft.extensions.filesystemglobbing/7.0.0/microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "/Users/khoavo/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/khoavo/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/khoavo/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/khoavo/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/Users/khoavo/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
